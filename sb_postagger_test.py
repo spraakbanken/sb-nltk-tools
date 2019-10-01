@@ -8,7 +8,7 @@ e.g., Talbanken which is manually POS-annotated
 """
 
 import nltk
-from sb_nltk_reader import SBCorpusReader
+from sb_corpus_reader import SBCorpusReader
 
 # The Talbanken corpus can be downloaded from here:
 # https://spraakbanken.gu.se/eng/resource/talbanken
