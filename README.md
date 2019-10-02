@@ -3,24 +3,21 @@
 
 The main module, `sb_corpus_reader.py`, 
 contains the class SBCorpusReader,
-which is an implementation of the NLTK CorpusReader api
-
-This corpus reader is intended to be used with 
-Språkbanken's downloadable corpora, which can be obtained
-from here: https://spraakbanken.gu.se/eng/resources/
+which is an implementation of the NLTK CorpusReader api.
+The SBCorpusReader is intended to be used with 
+[Språkbanken's downloadable corpora](https://spraakbanken.gu.se/eng/resources/).
 
 For more information about NLTK and the CorpusReader api,
-please see the NLTK site: http://www.nltk.org/
+please see the [NLTK website](http://www.nltk.org/).
 
 ### Installation
 
-Just put the file `sb_corpus_reader.py` in your working directory.
-
-Make sure that NLTK is installed.
-
+Make sure NLTK is installed.
+Put the file `sb_corpus_reader.py` in your working directory. 
 You can test if it works by running the test file:
 
-1. Download and decompress the [Talbanken corpus](https://spraakbanken.gu.se/eng/resource/talbanken), to the file `talbanken.xml` in your working directory.
+1. Download and extract the [Talbanken corpus](https://spraakbanken.gu.se/eng/resource/talbanken).
+Put the decompressed file `talbanken.xml` in your working directory.
 
 2. From the command line, run: `python3 sb_postagger_test.py`
 
