@@ -20,7 +20,7 @@ Make sure that NLTK is installed.
 
 You can test if it works by running the test file:
 
-1. Download and decompress the Talbanken corpus: https://spraakbanken.gu.se/eng/resource/talbanken
+1. Download and decompress the [Talbanken corpus](https://spraakbanken.gu.se/eng/resource/talbanken), to the file `talbanken.xml` in your working directory.
 
 2. From the command line, run: `python3 sb_postagger_test.py`
 
