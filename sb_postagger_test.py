@@ -7,15 +7,15 @@ e.g., Talbanken which is manually POS-annotated
 (https://spraakbanken.gu.se/eng/resource/talbanken)
 """
 
+import sys
 import nltk
 from sb_corpus_reader import SBCorpusReader
 
-# The Talbanken corpus can be downloaded from here:
-# https://spraakbanken.gu.se/eng/resource/talbanken
-CORPUS = 'talbanken.xml'
+if len(sys.argv) != 2:
+    sys.exit("Usage: %s corpus-file.xml" % (sys.argv[0],))
+corpuspath = sys.argv[1]
 
-
-corpus = SBCorpusReader(CORPUS)
+corpus = SBCorpusReader(corpuspath)
 tagged_sents = corpus.tagged_sents()
 print(corpus.readme())
 print("No. sentences:", len(tagged_sents))

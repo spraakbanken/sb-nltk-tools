@@ -20,7 +20,7 @@ You can test if it works by running the test file:
 1. Download and extract the [Talbanken corpus](https://spraakbanken.gu.se/eng/resource/talbanken).
 Put the decompressed file `talbanken.xml` in your working directory.
 
-2. From the command line, run: `python3 sb_postagger_test.py`
+2. From the command line, run: `python3 sb_postagger_test.py talbanken.xml`.
 
 --------
 ### Usage
